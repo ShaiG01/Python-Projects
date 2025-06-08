@@ -1,7 +1,7 @@
 import random
 import time
 
-# Fix typo: 'sissors' -> 'scissors'
+
 selection = {
     'rock': {'beats': 'scissors'},
     'paper': {'beats': 'rock'},
