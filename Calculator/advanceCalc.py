@@ -1,11 +1,11 @@
 numberList = []
-total = None  # Start with None so we know when total hasn't been set
+total = None 
 
 def advancedCalc():
     global total
     try:
         operation = input('Operation (+, -, *, /): ')
-        numbers = list(map(int, numberList))  # Convert all to integers
+        numbers = list(map(int, numberList))  
 
         def add(*args):
             global total
