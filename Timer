@@ -1,0 +1,11 @@
+import time
+
+my_time = int(input('Input time countdown value: '))
+
+for Time in range(my_time, 0, -1):
+    seconds = Time % 60
+    minutes = int((Time/60) % 60)
+    hours = int(Time/3600)
+    print(f'{hours:02}:{minutes:02}:{seconds:02}')
+    time.sleep(1)
+print('Times up!')
